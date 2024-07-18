@@ -49,14 +49,18 @@ body {
      text-align: left;
      border-radius: 4px;
      cursor: pointer;
+     transition: all 0.3s;
 }
 
 /* questions button */
 
-.btn:hover {
+.btn:hover:not([disabled]) {
      background-color: #222;
      color: #fff;
-     transition: all 0.3s;
+}
+
+.btn:disabled {
+     cursor: no-drop;
 }
 
 /* for next button */
@@ -74,3 +78,11 @@ body {
      display: none;
 }
 
+.correct {
+      background-color: #9aeabc;
+     
+}
+
+.incorrect {
+      background-color: #ff9393;
+}

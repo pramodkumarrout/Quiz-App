@@ -1,43 +1,43 @@
 const questions = [
     {
-        question: " Which is largest animal in the world?",
+        question: " Which of the following is correct about JavaScript?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "JavaScript is an Object-Based language", correct: true},
+            {text: " JavaScript is Assembly-language", correct: false},
+            {text: "JavaScript is an Object-Oriented language", correct: false},
+            {text: "JavaScript is a High-level language", correct: false},
         ]
     },
 
     {
-        question: " Which is the smallest country in the world?",
+        question: "Which of the following is not javascript data types?",
         answers: [
-            {text: "Vatican city", correct: true},
-            {text: "Bhutan", correct: false},
-            {text: "Nepal", correct: false},
-            {text: "Sri lanka", correct: false},
+            {text: "Null type", correct: false},
+            {text: " Undefined type", correct: false},
+            {text: " Number type", correct: false},
+            {text: "All of the mentioned", correct: true},
         ]
     },
     
      {
 
-        question: " Which is the largest desert in the world?",
+        question: " What is the basic difference between JavaScript and Java?",
         answers: [
-            {text: "Kalahari", correct: false},
-            {text: "Gobi", correct: false},
-            {text: "Sahara", correct: false},
-            {text: "Antarctica", correct: true},
+            {text: "Functions are considered as fields", correct: false},
+            {text: "Functions are values, and there is no hard distinction between methods and fields", correct: true},
+            {text: " Variables are specific", correct: false},
+            {text: "There is no difference", correct: false},
         ]
      },
 
      {
 
-        question: " Which is the smallest continent in the world?",
+        question: "  Which of the following is the property that is triggered in response to JS errors?",
         answers: [
-            {text: "Asia", correct: false},
-            {text: "Australia", correct: true},
-            {text: "Arctic", correct: false},
-            {text: "Africa", correct: false},
+            {text: "onclick", correct: false},
+            {text: "onerror", correct: true},
+            {text: "onmessage", correct: false},
+            {text: "onexception", correct: false},
         ]
      }
 
